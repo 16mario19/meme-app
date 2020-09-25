@@ -1,3 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom"
-ReactDOM.render();
+
+import TodoApp from "./todo-app/App";
+import MemeApp from "./meme-generator/App"
+
+ReactDOM.render(<TodoApp/>,document.getElementById("root"))
+//ReactDOM.render(<MemeApp/>, document.getElementById("root"))
